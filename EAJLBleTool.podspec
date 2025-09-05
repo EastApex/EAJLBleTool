@@ -37,7 +37,7 @@ s.vendored_frameworks = [
     'JLLib/JLLogHelper.framework',
     'JLLib/JL_OTALib.framework',
     'JLLib/JL_HashPair.framework',
-    'JLLib/JJL_BLEKit.framework',
+    'JLLib/JL_BLEKit.framework',
     'JLLib/JL_AdvParse.framework',
     'JLLib/JLDialUnit.framework',
     'JLLib/ZipZap.framework'
