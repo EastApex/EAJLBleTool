@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JLOTALib'
+  s.name             = 'EAJLBleTool'
   s.version          = '1.0.0.1'
-  s.summary          = 'A short description of JLLogHelper.'
+  s.summary          = 'A short description of EAJLBleTool.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,36 +21,26 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/EastApex/EASDKTool_iOS'
+  s.homepage         = 'https://github.com/EastApex/EAJLBleTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Aye' => 'aye.zhang@qq.com' }
-  s.source           = { :git => 'https://github.com/EastApex/EASDKTool_iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/EastApex/EAJLBleTool.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   
   
   s.source_files = "*.{h,m}"
   
-    #s.source_files = [
-    #  'JLOTALib/JLLogHelper/**/*',
-    #  'JLOTALib/JL_OTALib/**/*',
-    #  'JLOTALib/JL_HashPair/**/*',
-    #  'JLOTALib/JL_BLEKit/**/*',
-    #  'JLOTALib/JL_AdvPars/**/*',
-    #  'JLOTALib/JLDialUnit/**/*',
-    #  'JLOTALib/ZipZap/**/*'
-    #]
-  
 
 s.vendored_frameworks = [
-    'JLOTALib/JLLogHelper.framework',
-    'JLOTALib/JL_OTALib.framework',
-    'JLOTALib/JL_HashPair.framework',
-    'JLOTALib/JJL_BLEKit.framework',
-    'JLOTALib/JL_AdvParse.framework',
-    'JLOTALib/JLDialUnit.framework',
-    'JLOTALib/ZipZap.framework'
+    'JLLib/JLLogHelper.framework',
+    'JLLib/JL_OTALib.framework',
+    'JLLib/JL_HashPair.framework',
+    'JLLib/JJL_BLEKit.framework',
+    'JLLib/JL_AdvParse.framework',
+    'JLLib/JLDialUnit.framework',
+    'JLLib/ZipZap.framework'
   ]
 
 
